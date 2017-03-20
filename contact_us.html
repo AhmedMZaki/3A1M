@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Contact US</title>
+
+    <!-- Bootstrap Core CSS <script src="js/respond.min.js"></script><link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+   <link href="css/bootstrap.min.css" rel="stylesheet" />
+   <script src="js/respond.min.js"></script>
+	   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="css/modern-business.css" rel="stylesheet">
+	  <link href="css/logo-nav.css" rel="stylesheet">
+	    
+</head>
+
+<body>
+
+    <!-- Navigation -->
+	  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="app_icon.ico" alt="">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                   <li>  <a href="#"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"> ADD-Trip</span></a></li>
+				 <li>  <a href="#"><span class="glyphicon glyphicon-edit" aria-hidden="true"> Edit-Trip</span></a></li>
+                 <li> <a href="#"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"> NearBy-Stations</span></a></li>
+				 <li>  <a href="#"><span class="glyphicon glyphicon-refresh" aria-hidden="true"> Train-Status</span></a></li>
+				 <li>       <a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"> Fvorites</span></a></li>
+				 <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"> About/Contact</span></a></li>
+				 <li><a href="#"><img src="img/Egypt-Flag.ico"  width="20" height="20"/> <span class="glyphicon" aria-hidden="true"> <b>العربيه</b></span></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<body>
+
+	
+	
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12 ">
+                <h1 class="page-header">HOW TO USE </h1>
+				<h4>watch the demo</h4>
+            </div>
+        </div>
+        <!-- /.row -->
+  <div class="row">
+            <div class="col-lg-8 ">
+                <video style=" height:260px "class="col-lg-8 col-sm- col-xs-12"  controls >
+                <source src="aset/Icareer_3.MP4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                </video>
+            </div>
+            <!-- Contact Details Column -->
+    <div class="col-lg-4   visible-sm-block visible-md-block visible-lg">
+                <h3>Contact Details</h3>
+                <p>
+                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Send us a Message</h3>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>User Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+        <hr>
+        <!-- Footer -->
+        <footer style="text-align:center">
+        <div class="container">
+            <div class="row">
+			
+                <div class="col-lg-12 col-sm-8">
+				
+                    <ul class="list-inline">
+					
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                      
+                        <li>
+                            <a href="#services"><b>العربيه</b></a>
+                        </li>
+						<li class="visible-md-block visible-md visible-xs">
+						<ul class="list-unstyled list-inline list-social-icons ">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+						</li>
+                       
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Train WebSite 2017. All Rights Reserved</p>
+					  <p class="copyright text-muted small"><a href="#">Download</a> Our Application For More Freatures<br />
+					  <a href="#"><img class="img" src="img/android-app-on-google-play.ico" width="200" height="180"/></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!-- Bootstrap Core JavaScript -->
+	  <script src="js/jquery.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+	<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
